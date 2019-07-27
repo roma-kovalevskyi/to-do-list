@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap&subset=cyrillic');
+*,
+ :after,
+ :before {
+    box-sizing: border-box;
+}
+
+body {
+    background: #7cd5f3;
+    font-family: 'PT Sans', sans-serif;
+}
+
+#root {
+    width: 60vw;
+    margin: auto;
+    text-align: center;
+}

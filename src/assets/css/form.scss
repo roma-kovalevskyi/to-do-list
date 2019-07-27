@@ -1,0 +1,31 @@
+.form {
+    display: flex;
+    align-items: stretch;
+    position: relative;
+    margin-top: 30px;
+    &__input {
+        width: 100%;
+        border: none;
+        background-color: #fff;
+        box-shadow: 0 0 5px #848484;
+        color: #589db5;
+        font-size: 14px;
+        outline: none;
+        padding: 18px 40px 17px 22px;
+        &::-webkit-input-placeholder {
+            color: #589db5;
+        }
+    }
+    &__button {
+        background-color: transparent;
+        position: absolute;
+        top: 50%;
+        right: 12px;
+        margin-top: -19px;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        font-size: 32px;
+        color: #60b0cc;
+    }
+}

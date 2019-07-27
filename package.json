@@ -1,0 +1,31 @@
+{
+    "name": "to-do-list",
+    "version": "1.0.0",
+    "description": "",
+    "main": "gulpfile.js",
+    "browserslist": [
+        "last 2 versions"
+    ],
+    "scripts": {
+        "build": "gulp build  --production --colors --progress",
+        "dev": "gulp dev --development --colors --progress"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "browser-sync": "^2.26.7",
+        "del": "^5.0.0",
+        "gulp": "^4.0.2",
+        "gulp-autoprefixer": "^6.1.0",
+        "gulp-clean-css": "^4.2.0",
+        "gulp-concat": "^2.6.1",
+        "gulp-mode": "^1.0.2",
+        "gulp-rename": "^1.4.0",
+        "gulp-sass": "^4.0.2",
+        "gulp-sourcemaps": "^2.6.5",
+        "gulp-uglify-es": "^1.0.4",
+        "node-normalize-scss": "^8.0.0",
+        "node-sass": "^4.12.0"
+    }
+}

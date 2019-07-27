@@ -1,0 +1,52 @@
+.list {
+    padding-left: 0;
+    margin-top: 20px;
+    box-shadow: 0 1px 5px #848484;
+    &__item {
+        list-style: none;
+        color: #60b0cc;
+        border-bottom: 2px solid #60b0cc;
+        background-color: #fff;
+        padding: 10px 10px 10px 15px;
+        font-weight: 600;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__item:last-child {
+        border-bottom: none;
+    }
+    &__item-label {
+        display: block;
+        width: 30px;
+        height: 30px;
+        border: 2px solid #60b0cc;
+        cursor: pointer;
+    }
+    &__item-checkbox {
+        display: none;
+        &:checked+.list__item-label {
+            background: url(../img/check.png) no-repeat center;
+        }
+    }
+    &__item-span {
+        display: block;
+    }
+    &__item-btn {
+        width: 30px;
+        height: 30px;
+        position: relative;
+        border: none;
+        outline: none;
+        background-color: transparent;
+        cursor: pointer;
+        &:after {
+            position: absolute;
+            content: '\2716';
+            color: #60b0cc;
+            font-size: 28px;
+            top: 0;
+            right: 2px;
+        }
+    }
+}
